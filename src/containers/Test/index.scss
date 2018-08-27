@@ -1,0 +1,36 @@
+.sw-opt{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  .swiper-wrapper{
+    width: 100%;
+    .swiper-slide{
+      width: 100%;
+      height: 100%;
+      background: blue;
+      .sw_back0{
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: red;
+        overflow: auto;
+        color: #ffffff;
+      }
+      .sw_back1{
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background: #000;
+        color: #ffffff;
+      }
+    }
+  }
+
+}
+
+

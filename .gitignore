@@ -1,0 +1,7 @@
+# IDE/Editor data
+.idea
+# Dependency directory
+node_modules
+# Logs
+logs
+*.log
